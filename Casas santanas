@@ -1,0 +1,87 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Santana Casas Pré-Fabricadas</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background-color: #2c2c2c;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+    header img {
+      max-height: 80px;
+      margin-bottom: 10px;
+    }
+    nav {
+      background-color: #1a1a1a;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem 0;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .hero {
+      background: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c') no-repeat center center/cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      font-size: 2rem;
+      text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+    }
+    .section {
+      padding: 2rem;
+      text-align: center;
+    }
+    .whatsapp-button {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #25D366;
+      color: white;
+      border-radius: 50%;
+      padding: 15px;
+      text-decoration: none;
+      font-size: 24px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Logo Santana Casas Pré-Fabricadas">
+    <h1>Santana Casas Pré-Fabricadas</h1>
+    <p>Elegância e Qualidade para o seu novo lar</p>
+  </header>  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#modelos">Modelos de Casas</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+  </nav>  <div class="hero">
+    Sua casa dos sonhos começa aqui
+  </div>  <div class="section" id="modelos">
+    <h2>Modelos de Casas</h2>
+    <p>Em breve aqui você verá nossos modelos com fotos, preços e detalhes técnicos.</p>
+  </div>  <div class="section" id="sobre">
+    <h2>Sobre a Santana</h2>
+    <p>Atuamos com excelência no mercado de casas pré-fabricadas, unindo design moderno e durabilidade.</p>
+  </div>  <div class="section" id="contato">
+    <h2>Fale Conosco</h2>
+    <p>Entre em contato pelo WhatsApp clicando no botão abaixo.</p>
+  </div><a class="whatsapp-button" href="https://wa.me/5514991573134" target="_blank">💬</a>
+
+</body>
+</html>
